@@ -6,7 +6,7 @@ LazyLock use is to Compile once and use as much as you want.
 get_remote gives us the url of our remote repository.
 
 
-### -- convert_to_443 -- ###
+### -- convert_to_443 fn -- ###
 in Static RE:LazyLock<Regex> we create a structure, (.+/.+) can be replaced with whatever we give to it. next part.
 in caps we gave (.+/.+) our url.
 in repo get(1) will returm (.+/.+) which means (user/repo)
